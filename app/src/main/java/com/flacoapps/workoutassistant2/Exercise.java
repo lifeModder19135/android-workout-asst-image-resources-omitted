@@ -83,6 +83,44 @@ public class Exercise {
                     new Exercise ("Upright Row", "Upright Row", R.drawable.upright_row)
             };
 
+    //chestMoves is an array of chest exercises
+    public static final Exercise[] chestMoves =
+            {
+                    new Exercise ("Bench Press", "Bench Press", R.drawable.bench_press),
+                    new Exercise ("Bent-Arm Pullover", "Bent-Arm Pullover", R.drawable.bent_arm_pullover),
+                    new Exercise ("Decline Bench Press", "Decline Bench Press", R.drawable.decline_bench_press),
+                    //new Exercise ("Neutral-Grip Decline Bench Press", "Neutral-Grip Decline Bench Press", R.drawable.neutral_grip_decline_bench_press),
+                    new Exercise ("Incline Bench Press", "Incline Bench Press", R.drawable.incline_bench_press),
+                    new Exercise ("Incline Fly", "Incline Fly", R.drawable.incline_fly),
+                    new Exercise ("Lying Fly", "Lying Fly", R.drawable.lying_fly),
+                    new Exercise ("Neutral-Grip Incline Bench Press", "Neutral-Grip Incline Bench Press", R.drawable.neutral_grip_incline_bench_press),
+                    new Exercise ("Neutral-Grip Bench Press", "Neutral-Grip Bench Press", R.drawable.neutral_grip_bench_press),
+                    new Exercise ("Straight-Arm Pullover", "Straight-Arm Pullover", R.drawable.straight_arm_pullover),
+            };
+
+    //forearmsMoves is an array of forearms exercises
+    public static final Exercise[] forearmsMoves =
+            {
+                    new Exercise ("One-Arm Palm-Down Wrist Curl", "One-Arm Palm-Down Wrist Curl", R.drawable.one_arm_palm_down_wrist_curl),
+                    new Exercise ("One-Arm Palm-Up Wrist Curl", "Lying Triceps Extension", R.drawable.one_arm_palm_up_wrist_curl),
+                    new Exercise ("Palms-Down Wrist Curl", "Palms-Down Wrist Curl", R.drawable.palms_down_wrist_curl),
+                    new Exercise ("Palms-Up Wrist Curl", "Palms-Up Wrist Curl", R.drawable.palms_up_wrist_curl)
+            };
+
+    //legsMoves is an array of leg exercises
+    public static final Exercise[] legsMoves =
+            {
+                    new Exercise ("Dumbbell Swing Through", "Dumbbell Swing Through", R.drawable.dumbbell_swing_through),
+                    new Exercise ("One-Legged Toe Raise", "One-Legged Toe Raise", R.drawable.one_legged_toe_raise),
+                    new Exercise ("Reverse Lunge", "Reverse Lunge", R.drawable.reverse_lunge),
+                    new Exercise ("Seated One-Legged Toe Raise", "Seated One-Legged Toe Raise", R.drawable.seated_one_legged_toe_raise),
+                    new Exercise ("Side Lunge", "Side Lunge", R.drawable.side_lunge),
+                    new Exercise ("Squat", "Squat", R.drawable.squat),
+                    new Exercise ("Stationary Lunge", "Stationary Lunge", R.drawable.stationary_lunge),
+                    new Exercise ("Stiff-Legged Dead Lift", "Stiff-Legged Dead Lift", R.drawable.stiff_legged_dead_lift),
+                    new Exercise ("Toe Raise", "Toe Raise", R.drawable.toe_raise)
+            };
+
     //constructor used to set Drink object's properties
     private Exercise(String name, String description, int imageResourceId) {
         this.name = name;
