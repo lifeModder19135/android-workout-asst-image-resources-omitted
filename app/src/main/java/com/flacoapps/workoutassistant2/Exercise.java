@@ -63,26 +63,24 @@ public class Exercise {
                     new Exercise ("Two-arms Triceps Extension", "Two-arms Triceps Extension", R.drawable.two_arms_triceps_extension),
             };
             
-    //tricepsMoves is an array of triceps exercises
-    public static final Exercise[] tricepsMoves =
+    //shouldersMoves is an array of shoulders exercises
+    public static final Exercise[] shouldersMoves =
             {
-                    new Exercise ("Alternating Biceps Curl", "Alternating Biceps Curl", R.drawable.alternating_biceps_curl),
-                    new Exercise ("Bench Alternating Biceps Curl", "Bench Alternating Biceps Curl", R.drawable.bench_alternated_biceps_curl),
-                    new Exercise ("Biceps Curl", "Biceps Curl", R.drawable.biceps_curl),
-                    new Exercise ("Concentrated Biceps Curl", "Concentrated Biceps Curl", R.drawable.concentrated_biceps_curl),
-                    new Exercise ("Hammer Curl", "Hammer Curl", R.drawable.hammer_curl),
-                    new Exercise ("Incline Bench Biceps Curl", "Incline Bench Biceps Curl", R.drawable.incline_biceps_bench_curl),
-                    new Exercise ("Inclined Biceps Curl", "Inclined Alternating Biceps Curl", R.drawable.incline_biceps_curl),
-                    new Exercise ("Inclined Alternating Biceps Curl", "Inclined Alternating Biceps Curl", R.drawable.inclined_alternated_biceps_curl),
-                    new Exercise ("Inner Biceps Curl", "Inner Biceps Curl", R.drawable.inner_biceps_curl),
-                    new Exercise ("Palms-Forward Preacher Biceps Curl", "Palms-Forward Preacher Biceps Curl", R.drawable.palms_forward_preacher_biceps_curl),
-                    new Exercise ("Palms-Neutral Preacher Biceps Curl", "Palms-Neutral Preacher Biceps Curl", R.drawable.palms_neutral_preacher_biceps_curl),
-                    new Exercise ("Seated Alternating Biceps Curl", "Seated Alternating Biceps Curl", R.drawable.seated_alternated_biceps_curl),
-                    new Exercise ("Seated Biceps Curl", "Seated Biceps Curl", R.drawable.seated_biceps_curl),
-                    new Exercise ("Seated Concentrated Biceps Curl", "Seated Concentrated Biceps Curl", R.drawable.seated_concentrated_curl),
-                    new Exercise ("Seated Inner Biceps Curl", "Seated Inner Biceps Curl", R.drawable.seated_inner_biceps_curl),
-                    new Exercise ("Seated Isolated Curl", "Seated Isolated Curl", R.drawable.seated_isolated_curl),
-                    new Exercise ("Supine Biceps Curl", "Supine Biceps Curl", R.drawable.supine_biceps_curl),
+                    new Exercise ("Bent-Over Rear Deltoid Raise", "Bent-Over Rear Deltoid Raise", R.drawable.bent_over_rear_deltoid_raise),
+                    new Exercise ("Bent-Over One-Arm Deltoid Raise", "Bent-Over One-Arm Deltoid Raise", R.drawable.bent_over_one_arm_deltoid_raise),
+                    new Exercise ("Crouched Rear Deltoid Row", "Crouched Rear Deltoid Row", R.drawable.chrouched_rear_deltoid_row),
+                    new Exercise ("Front Raise", "Front Raise", R.drawable.front_raise),
+                    new Exercise ("Lateral Raise", "Lateral Raise", R.drawable.lateral_raise),
+                    new Exercise ("Palms-In Shoulder Press", "Palms-In Shoulder Press", R.drawable.palms_in_shoulder_press),
+                    new Exercise ("Push Press", "Push Press", R.drawable.push_press),
+                    new Exercise ("Rear Deltoid Circle", "Rear Deltoid Circle", R.drawable.rear_deltoid_circle),
+                    new Exercise ("Rear Deltoid Raise", "Rear Deltoid Raise", R.drawable.rear_deltoid_raise),
+                    new Exercise ("Seated Shoulder Press", "Seated Shoulder Press", R.drawable.seated_shoulder_press),
+                    new Exercise ("Seated Side Lateral Raise", "Seated Side Lateral Raise", R.drawable.seated_side_lateral_raise),
+                    new Exercise ("Shoulder Press", "Shoulder Press", R.drawable.shoulder_press),
+                    new Exercise ("Shoulder Shrug", "Shoulder Shrug", R.drawable.shoulder_shrug),
+                    new Exercise ("Straight-Arm Front Deltoid Raise", "Straight-Arm Front Deltoid Raise", R.drawable.straight_arm_front_deltoid_raise),
+                    new Exercise ("Upright Row", "Upright Row", R.drawable.upright_row)
             };
 
     //constructor used to set Drink object's properties
