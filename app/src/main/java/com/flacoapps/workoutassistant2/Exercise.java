@@ -47,7 +47,19 @@ public class Exercise {
                     new Exercise ("Seated Concentrated Biceps Curl", "Seated Concentrated Biceps Curl", R.drawable.seated_concentrated_curl),
                     new Exercise ("Seated Inner Biceps Curl", "Seated Inner Biceps Curl", R.drawable.seated_inner_biceps_curl),
                     new Exercise ("Seated Isolated Curl", "Seated Isolated Curl", R.drawable.seated_isolated_curl),
-                    new Exercise ("Supine Biceps Curl", "Supine Biceps Curl", R.drawable.supine_biceps_curl),
+                    new Exercise ("Supine Biceps Curl", "Supine Biceps Curl", R.drawable.supine_biceps_curl)
+            };
+
+    //tricepsMoves is an array of triceps exercises
+    public static final Exercise[] tricepsMoves =
+            {
+                    new Exercise ("Bent-Over One-Arm Triceps Extension", "Bent-Over One-Arm Triceps Extension", R.drawable.bent_over_one_arm_triceps_extension),
+                    new Exercise ("Lying Triceps Extension", "Lying Triceps Extension", R.drawable.lying_triceps_extension),
+                    new Exercise ("One-Arm Triceps Extension", "One-Arm Triceps Extension", R.drawable.one_arm_triceps_extension),
+                    new Exercise ("Seated Triceps Extension", "Seated Triceps Extension", R.drawable.seated_triceps_extension),
+                    new Exercise ("Triceps Bench Press", "Triceps Bench Press", R.drawable.triceps_bench_press),
+                    new Exercise ("Triceps Kickbacks", "Triceps Kickbacks", R.drawable.triceps_kickbacks),
+                    new Exercise ("Two-arms Triceps Extension", "Two-arms Triceps Extension", R.drawable.two_arms_triceps_extension),
             };
 
     //constructor used to set Drink object's properties
