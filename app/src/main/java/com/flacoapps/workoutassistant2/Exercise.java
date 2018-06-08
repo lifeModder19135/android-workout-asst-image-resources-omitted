@@ -29,6 +29,7 @@ public class Exercise {
                     new Exercise ("Weighted Crunch", "Weighted Crunch", R.drawable.weighted_crunch)
             };
 
+    //bicepsMoves is an array of biceps exercises
     public static final Exercise[] bicepsMoves =
             {
                     new Exercise ("Alternating Biceps Curl", "Alternating Biceps Curl", R.drawable.alternating_biceps_curl),
@@ -60,6 +61,28 @@ public class Exercise {
                     new Exercise ("Triceps Bench Press", "Triceps Bench Press", R.drawable.triceps_bench_press),
                     new Exercise ("Triceps Kickbacks", "Triceps Kickbacks", R.drawable.triceps_kickbacks),
                     new Exercise ("Two-arms Triceps Extension", "Two-arms Triceps Extension", R.drawable.two_arms_triceps_extension),
+            };
+            
+    //tricepsMoves is an array of triceps exercises
+    public static final Exercise[] tricepsMoves =
+            {
+                    new Exercise ("Alternating Biceps Curl", "Alternating Biceps Curl", R.drawable.alternating_biceps_curl),
+                    new Exercise ("Bench Alternating Biceps Curl", "Bench Alternating Biceps Curl", R.drawable.bench_alternated_biceps_curl),
+                    new Exercise ("Biceps Curl", "Biceps Curl", R.drawable.biceps_curl),
+                    new Exercise ("Concentrated Biceps Curl", "Concentrated Biceps Curl", R.drawable.concentrated_biceps_curl),
+                    new Exercise ("Hammer Curl", "Hammer Curl", R.drawable.hammer_curl),
+                    new Exercise ("Incline Bench Biceps Curl", "Incline Bench Biceps Curl", R.drawable.incline_biceps_bench_curl),
+                    new Exercise ("Inclined Biceps Curl", "Inclined Alternating Biceps Curl", R.drawable.incline_biceps_curl),
+                    new Exercise ("Inclined Alternating Biceps Curl", "Inclined Alternating Biceps Curl", R.drawable.inclined_alternated_biceps_curl),
+                    new Exercise ("Inner Biceps Curl", "Inner Biceps Curl", R.drawable.inner_biceps_curl),
+                    new Exercise ("Palms-Forward Preacher Biceps Curl", "Palms-Forward Preacher Biceps Curl", R.drawable.palms_forward_preacher_biceps_curl),
+                    new Exercise ("Palms-Neutral Preacher Biceps Curl", "Palms-Neutral Preacher Biceps Curl", R.drawable.palms_neutral_preacher_biceps_curl),
+                    new Exercise ("Seated Alternating Biceps Curl", "Seated Alternating Biceps Curl", R.drawable.seated_alternated_biceps_curl),
+                    new Exercise ("Seated Biceps Curl", "Seated Biceps Curl", R.drawable.seated_biceps_curl),
+                    new Exercise ("Seated Concentrated Biceps Curl", "Seated Concentrated Biceps Curl", R.drawable.seated_concentrated_curl),
+                    new Exercise ("Seated Inner Biceps Curl", "Seated Inner Biceps Curl", R.drawable.seated_inner_biceps_curl),
+                    new Exercise ("Seated Isolated Curl", "Seated Isolated Curl", R.drawable.seated_isolated_curl),
+                    new Exercise ("Supine Biceps Curl", "Supine Biceps Curl", R.drawable.supine_biceps_curl),
             };
 
     //constructor used to set Drink object's properties
