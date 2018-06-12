@@ -89,7 +89,7 @@ public class Exercise {
                     new Exercise ("Bench Press", "Bench Press", R.drawable.bench_press),
                     new Exercise ("Bent-Arm Pullover", "Bent-Arm Pullover", R.drawable.bent_arm_pullover),
                     new Exercise ("Decline Bench Press", "Decline Bench Press", R.drawable.decline_bench_press),
-                    //new Exercise ("Neutral-Grip Decline Bench Press", "Neutral-Grip Decline Bench Press", R.drawable.neutral_grip_decline_bench_press),
+                    new Exercise ("Neutral-Grip Decline Bench Press", "Neutral-Grip Decline Bench Press", R.drawable.neutral_grip_decline_bench_press),
                     new Exercise ("Incline Bench Press", "Incline Bench Press", R.drawable.incline_bench_press),
                     new Exercise ("Incline Fly", "Incline Fly", R.drawable.incline_fly),
                     new Exercise ("Lying Fly", "Lying Fly", R.drawable.lying_fly),

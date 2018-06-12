@@ -8,8 +8,8 @@
     <ImageView
         android:layout_width="200dp"
         android:layout_height="100dp"
-        android:src="@drawable/"
-        android:contentDescription="@string/"/>
+        android:src="@drawable/alternating_biceps_curl"
+        android:contentDescription="@string/main_logo_description"/>
 
     <ListView
         android:id="@+id/list_options"
