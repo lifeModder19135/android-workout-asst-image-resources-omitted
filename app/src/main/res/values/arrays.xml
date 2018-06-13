@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <array name="list_options">
+    <string-array name="list_options">
         <item>Back Workouts</item>
         <item>Chest Workouts</item>
         <item>Shoulder Workouts</item>
@@ -9,5 +9,5 @@
         <item>Forearm Workouts</item>
         <item>Ab Workouts</item>
         <item>Leg Workouts</item>
-    </array>
+    </string-array>
 </resources>
