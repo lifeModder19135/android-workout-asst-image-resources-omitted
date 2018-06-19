@@ -4,6 +4,8 @@ import android.app.ListActivity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.view.View;
+import android.content.Intent;
 
 public class AbsCategoryActivity extends ListActivity {
 
@@ -22,4 +24,15 @@ public class AbsCategoryActivity extends ListActivity {
 
         listAbsMoves.setAdapter(listAdapter);
     }
+
+    @Override
+    public void onListItemClick (ListView listView,
+                                 View itemView,
+                                 int position,
+                                 long id) {
+        Intent intent = new Intent(AbsCategoryActivity.this, DetailActivity.class);
+        intent.putExtra(DetailActivity.EXTRA_INFO, (int) id);
+        startActivity(intent);
+    }
+
 }

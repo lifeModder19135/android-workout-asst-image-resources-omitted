@@ -2,7 +2,9 @@ package com.flacoapps.workoutassistant2;
 
 import android.app.Activity;
 import android.app.ListActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -22,5 +24,15 @@ public class BicepsCategoryActivity extends ListActivity {
         );
 
         listBicepsMoves.setAdapter(listAdapter);
+    }
+
+    @Override
+    public void onListItemClick (ListView listView,
+                                 View itemView,
+                                 int position,
+                                 long id) {
+        Intent intent = new Intent(BicepsCategoryActivity.this, DetailActivity.class);
+        intent.putExtra(DetailActivity.EXTRA_INFO, (int) id);
+        startActivity(intent);
     }
 }
