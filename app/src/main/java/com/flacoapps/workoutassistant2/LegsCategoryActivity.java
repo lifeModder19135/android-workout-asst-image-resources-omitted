@@ -25,6 +25,7 @@ public class LegsCategoryActivity extends ListActivity {
         listLegsMoves.setAdapter(listAdapter);
     }
 
+    // tells android what to do when a list item is clicked
     @Override
     public void onListItemClick (ListView listView,
                                  View itemView,
