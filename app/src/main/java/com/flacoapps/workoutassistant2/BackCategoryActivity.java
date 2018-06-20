@@ -32,8 +32,8 @@ public class BackCategoryActivity extends ListActivity {
                                  View itemView,
                                  int position,
                                  long id) {
-        Intent intent = new Intent(BackCategoryActivity.this, DetailActivity.class);
-        intent.putExtra(DetailActivity.EXTRA_INFO, (int) id);
+        Intent intent = new Intent(BackCategoryActivity.this, BackDetailActivity.class);
+        intent.putExtra(BackDetailActivity.EXTRA_INFO, (int) id);
         startActivity(intent);
     }
 }

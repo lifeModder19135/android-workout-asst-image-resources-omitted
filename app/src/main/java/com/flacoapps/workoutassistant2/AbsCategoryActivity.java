@@ -31,8 +31,8 @@ public class AbsCategoryActivity extends ListActivity {
                                  View itemView,
                                  int position,
                                  long id) {
-        Intent intent = new Intent(AbsCategoryActivity.this, DetailActivity.class);
-        intent.putExtra(DetailActivity.EXTRA_INFO, (int) id);
+        Intent intent = new Intent(AbsCategoryActivity.this, AbsDetailActivity.class);
+        intent.putExtra(AbsDetailActivity.EXTRA_INFO, (int) id);
         startActivity(intent);
     }
 

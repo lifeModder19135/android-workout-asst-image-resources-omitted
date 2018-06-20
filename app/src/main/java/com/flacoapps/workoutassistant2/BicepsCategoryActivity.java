@@ -32,8 +32,8 @@ public class BicepsCategoryActivity extends ListActivity {
                                  View itemView,
                                  int position,
                                  long id) {
-        Intent intent = new Intent(BicepsCategoryActivity.this, DetailActivity.class);
-        intent.putExtra(DetailActivity.EXTRA_INFO, (int) id);
+        Intent intent = new Intent(BicepsCategoryActivity.this, BicepsDetailActivity.class);
+        intent.putExtra(BicepsDetailActivity.EXTRA_INFO, (int) id);
         startActivity(intent);
     }
 }

@@ -27,7 +27,7 @@ public class TricepsCategoryActivity extends ListActivity {
     }
 
     // tells android what to do when a list item is clicked
-    @Override
+    /*@Override
     public void onListItemClick (ListView listView,
                                  View itemView,
                                  int position,
@@ -35,6 +35,6 @@ public class TricepsCategoryActivity extends ListActivity {
         Intent intent = new Intent(TricepsCategoryActivity.this, DetailActivity.class);
         intent.putExtra(DetailActivity.EXTRA_INFO, (int) id);
         startActivity(intent);
-    }
+    }*/
 
 }

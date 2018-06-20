@@ -24,7 +24,9 @@
         <activity android:name=".ForearmsCategoryActivity" />
         <activity android:name=".AbsCategoryActivity" />
         <activity android:name=".LegsCategoryActivity" />
-        <activity android:name=".DetailActivity"></activity>
+        <activity android:name=".AbsDetailActivity" />
+        <activity android:name=".BackDetailActivity" />
+        <activity android:name=".BicepsDetailActivity"></activity>
     </application>
 
 </manifest>
