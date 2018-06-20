@@ -26,7 +26,12 @@
         <activity android:name=".LegsCategoryActivity" />
         <activity android:name=".AbsDetailActivity" />
         <activity android:name=".BackDetailActivity" />
-        <activity android:name=".BicepsDetailActivity"></activity>
+        <activity android:name=".BicepsDetailActivity" />
+        <activity android:name=".ChestDetailActivity" />
+        <activity android:name=".ForearmsDetailActivity" />
+        <activity android:name=".LegsDetailActivity" />
+        <activity android:name=".ShouldersDetailActivity" />
+        <activity android:name=".TricepsDetailActivity"></activity>
     </application>
 
 </manifest>

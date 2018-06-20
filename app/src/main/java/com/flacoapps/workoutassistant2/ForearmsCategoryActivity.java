@@ -26,13 +26,13 @@ public class ForearmsCategoryActivity extends ListActivity {
     }
 
     // tells android what to do when a list item is clicked
-   /* @Override
+    @Override
     public void onListItemClick (ListView listView,
                                  View itemView,
                                  int position,
                                  long id) {
-        Intent intent = new Intent(ForearmsCategoryActivity.this, DetailActivity.class);
-        intent.putExtra(DetailActivity.EXTRA_INFO, (int) id);
+        Intent intent = new Intent(ForearmsCategoryActivity.this, ForearmsDetailActivity.class);
+        intent.putExtra(ForearmsDetailActivity.EXTRA_INFO, (int) id);
         startActivity(intent);
-    }*/
+    }
 }

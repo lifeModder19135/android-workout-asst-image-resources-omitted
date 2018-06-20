@@ -102,7 +102,7 @@ public class Exercise {
     public static final Exercise[] forearmsMoves =
             {
                     new Exercise ("One-Arm Palm-Down Wrist Curl", "One-Arm Palm-Down Wrist Curl", R.drawable.one_arm_palm_down_wrist_curl),
-                    new Exercise ("One-Arm Palm-Up Wrist Curl", "Lying Triceps Extension", R.drawable.one_arm_palm_up_wrist_curl),
+                    new Exercise ("One-Arm Palm-Up Wrist Curl", "One-Arm Palm-Up Wrist Curl", R.drawable.one_arm_palm_up_wrist_curl),
                     new Exercise ("Palms-Down Wrist Curl", "Palms-Down Wrist Curl", R.drawable.palms_down_wrist_curl),
                     new Exercise ("Palms-Up Wrist Curl", "Palms-Up Wrist Curl", R.drawable.palms_up_wrist_curl)
             };

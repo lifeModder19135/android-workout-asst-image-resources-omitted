@@ -26,13 +26,13 @@ public class ChestCategoryActivity extends ListActivity {
     }
 
     // tells android what to do when a list item is clicked
-    /*@Override
+    @Override
     public void onListItemClick (ListView listView,
                                  View itemView,
                                  int position,
                                  long id) {
-        Intent intent = new Intent(ChestCategoryActivity.this, DetailActivity.class);
-        intent.putExtra(DetailActivity.EXTRA_INFO, (int) id);
+        Intent intent = new Intent(ChestCategoryActivity.this, ChestDetailActivity.class);
+        intent.putExtra(ChestDetailActivity.EXTRA_INFO, (int) id);
         startActivity(intent);
-    } */
+    }
 }
