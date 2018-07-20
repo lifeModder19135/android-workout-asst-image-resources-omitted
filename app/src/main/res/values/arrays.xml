@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
     <string-array name="list_options">
-        <item>Back Workouts</item>
+        <item
+            android:src="@drawable/workout_assistant_logo_3">Back Workouts</item>
         <item>Chest Workouts</item>
         <item>Shoulder Workouts</item>
         <item>Bicep Workouts</item>

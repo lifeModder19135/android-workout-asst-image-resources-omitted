@@ -1,20 +1,287 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
+
 
     <ImageView
-        android:layout_width="200dp"
-        android:layout_height="100dp"
-        android:src="@drawable/workout_assistant_logo_3"
-        android:contentDescription="@string/main_logo_description"/>
+        android:id="@+id/left_rectangle"
+        android:layout_width="57dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/rectangle32"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <ListView
-        android:id="@+id/list_options"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:entries="@array/list_options"/>
+    <ImageView
+        android:id="@+id/right_rectangle"
+        android:layout_width="57dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/rectangle32"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-</LinearLayout>
+    <ImageView
+        android:id="@+id/t_l_logo"
+        android:layout_width="347dp"
+        android:layout_height="93dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/logo4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0" />
+
+
+
+    <ImageView
+        android:id="@+id/t_l_biceps"
+        android:layout_width="wrap_content"
+        android:layout_height="114dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/t_l_biceps_mdpi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/right_rectangle"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="@+id/left_rectangle"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.366" />
+
+    <ImageView
+        android:id="@+id/t_l_shoulders"
+        android:layout_width="wrap_content"
+        android:layout_height="114dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/t_l_shoulders"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/right_rectangle"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="@+id/left_rectangle"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.105" />
+
+    <ImageView
+        android:id="@+id/t_l_triceps"
+        android:layout_width="wrap_content"
+        android:layout_height="114dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/t_l_triceps"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.237" />
+
+    <ImageView
+        android:id="@+id/t_l_back"
+        android:layout_width="wrap_content"
+        android:layout_height="114dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/t_l_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498" />
+
+    <ImageView
+        android:id="@+id/t_l_chest"
+        android:layout_width="wrap_content"
+        android:layout_height="114dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/t_l_chest"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="@+id/left_rectangle"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.627" />
+
+    <ImageView
+        android:id="@+id/t_l_forearms"
+        android:layout_width="wrap_content"
+        android:layout_height="114dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/t_l_forearms"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.759" />
+
+    <ImageView
+        android:id="@+id/t_l_abs"
+        android:layout_width="wrap_content"
+        android:layout_height="114dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/t_l_abs"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.074"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/t_l_logo"
+        app:layout_constraintVertical_bias="0.887" />
+
+    <ImageView
+        android:id="@+id/t_l_legs"
+        android:layout_width="wrap_content"
+        android:layout_height="114dp"
+        android:src="@drawable/t_l_legs"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.878"
+        app:layout_constraintStart_toStartOf="@+id/left_rectangle"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/shoulders_button"
+        android:layout_width="183dp"
+        android:layout_height="50dp"
+        android:alpha="0.8"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="@+id/t_l_shoulders"
+        app:layout_constraintEnd_toEndOf="@+id/t_l_shoulders"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="@+id/t_l_shoulders"
+        app:layout_constraintTop_toTopOf="@+id/t_l_shoulders"
+        app:layout_constraintVertical_bias="0.457" />
+
+    <Button
+        android:id="@+id/triceps_button"
+        android:layout_width="183dp"
+        android:layout_height="50dp"
+        android:text=""
+        android:alpha="0.8"
+        app:layout_constraintBottom_toBottomOf="@+id/t_l_triceps"
+        app:layout_constraintEnd_toEndOf="@+id/t_l_triceps"
+        app:layout_constraintHorizontal_bias="0.185"
+        app:layout_constraintStart_toStartOf="@+id/t_l_triceps"
+        app:layout_constraintTop_toTopOf="@+id/t_l_triceps"
+        app:layout_constraintVertical_bias="0.514" />
+
+    <Button
+        android:id="@+id/biceps_button"
+        android:layout_width="184dp"
+        android:layout_height="50dp"
+        android:text=""
+        android:alpha="0.8"
+        app:layout_constraintBottom_toTopOf="@+id/t_l_chest"
+        app:layout_constraintEnd_toEndOf="@+id/t_l_biceps"
+        app:layout_constraintHorizontal_bias="0.819"
+        app:layout_constraintStart_toStartOf="@+id/t_l_biceps"
+        app:layout_constraintTop_toBottomOf="@+id/t_l_shoulders"
+        app:layout_constraintVertical_bias="0.445" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="183dp"
+        android:layout_height="50dp"
+        android:text=""
+        android:alpha="0.8"
+        app:layout_constraintBottom_toBottomOf="@+id/t_l_back"
+        app:layout_constraintEnd_toEndOf="@+id/t_l_back"
+        app:layout_constraintHorizontal_bias="0.185"
+        app:layout_constraintStart_toStartOf="@+id/t_l_back"
+        app:layout_constraintTop_toTopOf="@+id/t_l_back"
+        app:layout_constraintVertical_bias="0.450" />
+
+    <Button
+        android:id="@+id/chest_button"
+        android:layout_width="183dp"
+        android:layout_height="50dp"
+        android:text=""
+        android:alpha="0.8"
+        app:layout_constraintBottom_toBottomOf="@+id/t_l_chest"
+        app:layout_constraintEnd_toEndOf="@+id/t_l_chest"
+        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintStart_toStartOf="@+id/t_l_chest"
+        app:layout_constraintTop_toTopOf="@+id/t_l_chest"
+        app:layout_constraintVertical_bias="0.442" />
+
+    <Button
+        android:id="@+id/forearms_button"
+        android:layout_width="183dp"
+        android:layout_height="50dp"
+        android:text=""
+        android:alpha="0.8"
+        app:layout_constraintBottom_toBottomOf="@+id/t_l_forearms"
+        app:layout_constraintEnd_toEndOf="@+id/t_l_forearms"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="@+id/t_l_forearms"
+        app:layout_constraintTop_toTopOf="@+id/t_l_forearms"
+        app:layout_constraintVertical_bias="0.428" />
+
+    <Button
+        android:id="@+id/abs_button"
+        android:layout_width="183dp"
+        android:layout_height="50dp"
+        android:text=""
+        android:alpha="0.8"
+        app:layout_constraintBottom_toBottomOf="@+id/t_l_abs"
+        app:layout_constraintEnd_toEndOf="@+id/t_l_abs"
+        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintStart_toStartOf="@+id/t_l_abs"
+        app:layout_constraintTop_toTopOf="@+id/t_l_abs"
+        app:layout_constraintVertical_bias="0.457"/>
+
+    <Button
+        android:id="@+id/legs_button"
+        android:layout_width="183dp"
+        android:layout_height="50dp"
+        android:text=""
+        android:alpha="0.8"
+        app:layout_constraintBottom_toBottomOf="@+id/t_l_legs"
+        app:layout_constraintEnd_toEndOf="@+id/t_l_legs"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="@+id/t_l_legs"
+        app:layout_constraintTop_toTopOf="@+id/t_l_legs"
+        app:layout_constraintVertical_bias="0.442" />
+
+
+
+</android.support.constraint.ConstraintLayout>
