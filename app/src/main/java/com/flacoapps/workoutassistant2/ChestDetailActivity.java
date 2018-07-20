@@ -19,7 +19,7 @@ public class ChestDetailActivity extends Activity {
         Exercise chestExercise = Exercise.chestMoves[chestExerciseNumber];
 
         //populate exercise image
-        ImageView photo = (ImageView) findViewById(R.id.photo);
+        ImageView photo = (ImageView) findViewById(R.id.chest_photo);
         photo.setImageResource(chestExercise.getImageResourceId());
         photo.setContentDescription(chestExercise.getName());
 

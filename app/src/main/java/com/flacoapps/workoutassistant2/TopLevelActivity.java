@@ -45,7 +45,7 @@ public class TopLevelActivity extends Activity {
         Button backBtn = (Button) findViewById(R.id.back_button);
         backBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent_back = new Intent(TopLevelActivity.this, BackDetailActivity.class);
+                Intent intent_back = new Intent(TopLevelActivity.this, BackCategoryActivity.class);
                 startActivity(intent_back);
             }
         });
@@ -53,7 +53,7 @@ public class TopLevelActivity extends Activity {
         Button chestBtn = (Button) findViewById(R.id.chest_button);
         chestBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent_chest = new Intent(TopLevelActivity.this, ChestDetailActivity.class);
+                Intent intent_chest = new Intent(TopLevelActivity.this, ChestCategoryActivity.class);
                 startActivity(intent_chest);
             }
         });
@@ -61,7 +61,7 @@ public class TopLevelActivity extends Activity {
         Button forearmsBtn = (Button) findViewById(R.id.forearms_button);
         forearmsBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent_forearms = new Intent(TopLevelActivity.this, ForearmsDetailActivity.class);
+                Intent intent_forearms = new Intent(TopLevelActivity.this, ForearmsCategoryActivity.class);
                 startActivity(intent_forearms);
             }
         });
@@ -69,7 +69,7 @@ public class TopLevelActivity extends Activity {
         Button absBtn = (Button) findViewById(R.id.abs_button);
         absBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent_abs = new Intent(TopLevelActivity.this, AbsDetailActivity.class);
+                Intent intent_abs = new Intent(TopLevelActivity.this, AbsCategoryActivity.class);
                 startActivity(intent_abs);
             }
         });
@@ -77,7 +77,7 @@ public class TopLevelActivity extends Activity {
         Button legsBtn = (Button) findViewById(R.id.legs_button);
         legsBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent_legs = new Intent(TopLevelActivity.this, LegsDetailActivity.class);
+                Intent intent_legs = new Intent(TopLevelActivity.this, LegsCategoryActivity.class);
                 startActivity(intent_legs);
             }
         });

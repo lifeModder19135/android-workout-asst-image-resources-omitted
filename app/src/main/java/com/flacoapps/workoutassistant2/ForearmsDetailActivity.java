@@ -19,7 +19,7 @@ public class ForearmsDetailActivity extends Activity {
         Exercise forearmsExercise = Exercise.forearmsMoves[forearmsExerciseNumber];
 
         //populate exercise image
-        ImageView photo = (ImageView) findViewById(R.id.photo);
+        ImageView photo = (ImageView) findViewById(R.id.forearms_photo);
         photo.setImageResource(forearmsExercise.getImageResourceId());
         photo.setContentDescription(forearmsExercise.getName());
 

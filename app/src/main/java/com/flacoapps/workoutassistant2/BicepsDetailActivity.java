@@ -19,7 +19,7 @@ public class BicepsDetailActivity extends Activity {
         Exercise bicepsExercise = Exercise.bicepsMoves[bicepsExerciseNumber];
 
         //populate exercise image
-        ImageView photo = (ImageView) findViewById(R.id.photo);
+        ImageView photo = (ImageView) findViewById(R.id.biceps_photo);
         photo.setImageResource(bicepsExercise.getImageResourceId());
         photo.setContentDescription(bicepsExercise.getName());
 

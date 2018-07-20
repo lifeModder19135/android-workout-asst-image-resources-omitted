@@ -19,7 +19,7 @@ public class TricepsDetailActivity extends Activity {
         Exercise tricepsExercise = Exercise.tricepsMoves[tricepsExerciseNumber];
 
         //populate exercise image
-        ImageView photo = (ImageView) findViewById(R.id.photo);
+        ImageView photo = (ImageView) findViewById(R.id.triceps_photo);
         photo.setImageResource(tricepsExercise.getImageResourceId());
         photo.setContentDescription(tricepsExercise.getName());
 

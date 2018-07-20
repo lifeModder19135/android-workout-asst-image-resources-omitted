@@ -19,7 +19,7 @@ public class LegsDetailActivity extends Activity {
         Exercise legsExercise = Exercise.legsMoves[legsExerciseNumber];
 
         //populate exercise image
-        ImageView photo = (ImageView) findViewById(R.id.photo);
+        ImageView photo = (ImageView) findViewById(R.id.legs_photo);
         photo.setImageResource(legsExercise.getImageResourceId());
         photo.setContentDescription(legsExercise.getName());
 

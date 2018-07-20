@@ -19,7 +19,7 @@ public class ShouldersDetailActivity extends Activity {
         Exercise shouldersExercise = Exercise.shouldersMoves[shouldersExerciseNumber];
 
         //populate exercise image
-        ImageView photo = (ImageView) findViewById(R.id.photo);
+        ImageView photo = (ImageView) findViewById(R.id.shoulders_photo);
         photo.setImageResource(shouldersExercise.getImageResourceId());
         photo.setContentDescription(shouldersExercise.getName());
 

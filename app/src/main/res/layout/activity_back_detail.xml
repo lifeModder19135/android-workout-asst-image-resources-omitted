@@ -7,7 +7,7 @@
     tools:context=".BackDetailActivity">
 
     <ImageView
-        android:id="@+id/photo"
+        android:id="@+id/back_photo"
         android:contentDescription="@string/back_content_desc"
         android:layout_width="190dp"
         android:layout_height="190dp" />

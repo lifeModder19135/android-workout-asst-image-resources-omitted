@@ -7,7 +7,7 @@
     tools:context=".LegsDetailActivity">
 
     <ImageView
-        android:id="@+id/photo"
+        android:id="@+id/legs_photo"
         android:layout_width="190dp"
         android:layout_height="190dp"
         android:contentDescription="@string/legs_content_desc" />

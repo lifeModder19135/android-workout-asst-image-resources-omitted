@@ -19,7 +19,7 @@ public class AbsDetailActivity extends Activity {
         Exercise absExercise = Exercise.absMoves[exerciseNumber];
 
         //populate exercise image
-        ImageView photo = (ImageView) findViewById(R.id.photo);
+        ImageView photo = (ImageView) findViewById(R.id.abs_photo);
         photo.setImageResource(absExercise.getImageResourceId());
         photo.setContentDescription(absExercise.getName());
 

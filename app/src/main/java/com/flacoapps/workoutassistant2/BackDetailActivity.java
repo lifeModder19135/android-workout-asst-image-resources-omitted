@@ -19,7 +19,7 @@ public class BackDetailActivity extends Activity {
         Exercise backExercise = Exercise.backMoves[backExerciseNumber];
 
         //populate exercise image
-        ImageView photo = (ImageView) findViewById(R.id.photo);
+        ImageView photo = (ImageView) findViewById(R.id.back_photo);
         photo.setImageResource(backExercise.getImageResourceId());
         photo.setContentDescription(backExercise.getName());
 

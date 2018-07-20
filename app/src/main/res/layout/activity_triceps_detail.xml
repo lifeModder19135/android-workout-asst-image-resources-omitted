@@ -7,7 +7,7 @@
     tools:context=".TricepsDetailActivity">
 
     <ImageView
-        android:id="@+id/photo"
+        android:id="@+id/triceps_photo"
         android:contentDescription="@string/triceps_content_desc"
         android:layout_width="190dp"
         android:layout_height="190dp" />
