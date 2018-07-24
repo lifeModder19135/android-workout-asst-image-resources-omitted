@@ -10,45 +10,232 @@ public class Exercise {
     //backMoves is an array of back exercises
     public static final Exercise[] backMoves =
             {
-                    new Exercise ("Back Fly", "Back Fly", R.drawable.back_fly),
-                    new Exercise ("Bend to Opposite Foot", "Bend to Opposite Foot", R.drawable.bend_to_opposite_foot),
-                    new Exercise ("Bent Over Row", "Bent Over Row", R.drawable.bent_over_row),
-                    new Exercise ("Dead Lift", "Dead Lift", R.drawable.dead_lift),
-                    new Exercise ("Kneeling One Arm Row", "Kneeling One Arm Row", R.drawable.kneeling_one_arm_row),
-                    new Exercise ("One Arm Row", "One Arm Row", R.drawable.one_arm_row),
-                    new Exercise ("Twisting Bend to Opposite Foot", "Twisting Bend to Opposite Foot", R.drawable.twisting_bend_to_opposite_foot),
-                    new Exercise ("Stiff-Legged Dead Lift", "Stiff-Legged Dead Lift", R.drawable.stiff_legged_dead_lift),
-                    new Exercise ("Wide Row", "Wide Row", R.drawable.wide_row)
+                    new Exercise ("Back Fly", "Lie down on your chest on the bench.\n" +
+                            "\n" +
+                            "Grab two dumbbells with your hands, elbows at 90 degree angles.\n" +
+                            "\n" +
+                            "Raise the dumbbells until your arms are parallel to the ground.\n" +
+                            "\n" +
+                            "Lower them back after a short pause.\n" +
+                            "\n" +
+                            "Tip: Breathe out when pulling the dumbbells and breathe in when lowering them back.\n", R.drawable.back_fly),
+                    new Exercise ("Bend to Opposite Foot", "Stand up, reach down and grab a dumbbell just above one of your feet with your opposite hand (knees slightly bent).\n" +
+                            "\n" +
+                            "Lift the dumbbell up until you are standing up.\n" +
+                            "\n" +
+                            "Lower it back after a short pause.\n" +
+                            "\n" +
+                            "Tip: Keep a slight arch in your knees throughout.\n", R.drawable.bend_to_opposite_foot),
+                    new Exercise ("Bent Over Row", "Stand up and reach down in order to hold two dumbbells with both hands (knees slightly bent).\n" +
+                            "\n" +
+                            "Lift the dumbbells up until your upper arms are parallel to your body. \n" +
+                            "\n" +
+                            "Lower them back after a short pause.\n" +
+                            "\n" +
+                            "Tip: Try to keep your back straight throughout. Only the arm should move.\n", R.drawable.bent_over_row),
+                    new Exercise ("Dead Lift", "Stand up and grab a dumbbell with each of your hands.\n" +
+                            "\n" +
+                            "Flex your knees and hips in order to lower the dumbbells straight down.\n" +
+                            "\n" +
+                            "Raise yourself back up after a short pause.\n" +
+                            "\n" +
+                            "Tip:Breathe in when lowering and breathe out when returning to starting position\n" +
+                            "\n" +
+                            "Notes:The dumbbell deadlift is one of the most efficient dumbbell back exercises \n" +
+                            "that you can do. The reason, is that the dumbbell deadlift not only exercises \n" +
+                            "the back but also most of the major muscle groups.\n", R.drawable.dead_lift),
+                    new Exercise ("Kneeling One Arm Row", "Put your knee and hand on a bench.\n" +
+                            "\n" +
+                            "Grab a dumbbell with your other hand.\n" +
+                            "\n" +
+                            "Lift the dumbbell straight up without moving anything other than your arm.\n" +
+                            "\n" +
+                            "Lower it back down after a short pause.\n" +
+                            "\n" +
+                            "Tip: Breathe out when raising the dumbbell and in when returning to starting position.\n", R.drawable.kneeling_one_arm_row),
+                    new Exercise ("One Arm Row", "Position yourself bent forward in front of a bench while holding a dumbbell with one hand (arm extended).\n" +
+                            "\n" +
+                            "Lift the dumbbell up until your upper arm is parallel to your body.\n" +
+                            "\n" +
+                            "Lower it back after a short pause. \n" +
+                            "\n" +
+                            "Alternate hands when set is completed.\n" +
+                            "\n" +
+                            "Tip:Try to keep your back straight throughout. Only the arm should move.\n", R.drawable.one_arm_row),
+                    new Exercise ("Twisting Bend to Opposite Foot", "Stand up, reach down and grab 2 dumbbells just above one of your feet with your hands (knees slightly bent).\n" +
+                            "\n" +
+                            "Lift the dumbbells up until you are standing up.\n" +
+                            "\n" +
+                            "Lower them back but to the other foot. Alternate sides.\n" +
+                            "\n" +
+                            "Tip: Keep a slight arch in your knees throughout.\n", R.drawable.twisting_bend_to_opposite_foot),
+                    new Exercise ("Stiff-Legged Dead Lift", "Stand up and reach down in order to hold two dumbbells with both hands (knees slightly bent).\n" +
+                            "\n" +
+                            "Raise your upper body until you are standing and lower it back after a short pause.\n" +
+                            "\n" +
+                            "Tip: Try to keep your arms straight throughout by keeping the same small arch in your elbows.\n", R.drawable.stiff_legged_dead_lift),
+                    new Exercise ("Wide Row", "Grab one dumbbell with each hand. \n" +
+                            "\n" +
+                            "Flex your knees and hips to bring yourself to a squatting position.\n" +
+                            "\n" +
+                            "Lift both dumbbells straight up without altering the angles at your knees and hips.\n" +
+                            "\n" +
+                            "Lower them back after a short pause.\n" +
+                            "\n" +
+                            "Tip: Breathe out when lifting the dumbbells and breathe in when returning to starting position.\n", R.drawable.wide_row)
             };
 
     //absMoves is an array of abdominal exercises
     public static final Exercise[] absMoves =
             {
-                    new Exercise ("Weighted Leg Raise", "Weighted Leg Raise", R.drawable.weighted_leg_raise),
-                    new Exercise ("Dumbbell Side Bend", "Dumbbell Side Bend", R.drawable.dumbbell_side_bend),
-                    new Exercise ("Weighted Crunch", "Weighted Crunch", R.drawable.weighted_crunch)
+                    new Exercise ("Weighted Leg Raise", "Lie down with your back on the bench, hands gripping the sides of it and hold a dumbbell between your feet.\n" +
+                            "\n" +
+                            "Raise your legs up until they are perpendicular to the floor and lower them back after a short pause.\n" +
+                            "\n" +
+                            "Tip: Try to keep your legs extended by keeping your knees at the same angle.\n", R.drawable.weighted_leg_raise),
+                    new Exercise ("Dumbbell Side Bend", "Hold a dumbbell with one hand along the side of your body.\n" +
+                            "\n" +
+                            "Tilt your upper body to the side that holds the dumbbell.\n" +
+                            "\n" +
+                            "Bring it back after a short pause. \n" +
+                            "\n" +
+                            "Complete your set and change sides.\n" +
+                            "\n" +
+                            "Tip: Be careful not to tilt your upper body too far sideways where it may be difficult to bring it back.\n", R.drawable.dumbbell_side_bend),
+                    new Exercise ("Weighted Crunch", "Lie down on your back on a bench and hold a dumbbell on top of your chest.\n" +
+                            "\n" +
+                            "Raise your upper body until your shoulder blades no longer touch the bench\n" +
+                            "\n" +
+                            "Lower yourself back down after a short pause.\n" +
+                            "\n" +
+                            "TIP: To avoid pulling your neck with your hands,\n" +
+                            "look straight up instead of looking at your knees.\n", R.drawable.weighted_crunch)
             };
 
     //bicepsMoves is an array of biceps exercises
     public static final Exercise[] bicepsMoves =
             {
-                    new Exercise ("Alternating Biceps Curl", "Alternating Biceps Curl", R.drawable.alternating_biceps_curl),
-                    new Exercise ("Bench Alternating Biceps Curl", "Bench Alternating Biceps Curl", R.drawable.bench_alternated_biceps_curl),
-                    new Exercise ("Biceps Curl", "Biceps Curl", R.drawable.biceps_curl),
-                    new Exercise ("Concentrated Biceps Curl", "Concentrated Biceps Curl", R.drawable.concentrated_biceps_curl),
-                    new Exercise ("Hammer Curl", "Hammer Curl", R.drawable.hammer_curl),
-                    new Exercise ("Incline Bench Biceps Curl", "Incline Bench Biceps Curl", R.drawable.incline_biceps_bench_curl),
-                    new Exercise ("Inclined Biceps Curl", "Inclined Alternating Biceps Curl", R.drawable.incline_biceps_curl),
-                    new Exercise ("Inclined Alternating Biceps Curl", "Inclined Alternating Biceps Curl", R.drawable.inclined_alternated_biceps_curl),
-                    new Exercise ("Inner Biceps Curl", "Inner Biceps Curl", R.drawable.inner_biceps_curl),
-                    new Exercise ("Palms-Forward Preacher Biceps Curl", "Palms-Forward Preacher Biceps Curl", R.drawable.palms_forward_preacher_biceps_curl),
-                    new Exercise ("Palms-Neutral Preacher Biceps Curl", "Palms-Neutral Preacher Biceps Curl", R.drawable.palms_neutral_preacher_biceps_curl),
-                    new Exercise ("Seated Alternating Biceps Curl", "Seated Alternating Biceps Curl", R.drawable.seated_alternated_biceps_curl),
-                    new Exercise ("Seated Biceps Curl", "Seated Biceps Curl", R.drawable.seated_biceps_curl),
-                    new Exercise ("Seated Concentrated Biceps Curl", "Seated Concentrated Biceps Curl", R.drawable.seated_concentrated_curl),
-                    new Exercise ("Seated Inner Biceps Curl", "Seated Inner Biceps Curl", R.drawable.seated_inner_biceps_curl),
-                    new Exercise ("Seated Isolated Curl", "Seated Isolated Curl", R.drawable.seated_isolated_curl),
-                    new Exercise ("Supine Biceps Curl", "Supine Biceps Curl", R.drawable.supine_biceps_curl)
+                    new Exercise ("Alternating Biceps Curl", "Stand up and hold one dumbbell with each hand down the side of your body, palms facing each other.\n" +
+                            "\n" +
+                            "Raise one dumbbell until it reaches your shoulder’s height.\n" +
+                            "\n" +
+                            "While slowly lowering it back down after a short pause, start raising the other one.\n" +
+                            "\n" +
+                            "Tip: Try NOT to jerk your upper body in an effort to help you lift the weights.\n", R.drawable.alternating_biceps_curl),
+                    new Exercise ("Bench Alternating Biceps Curl", "Lie face down on a high bench and hold one dumbbell with each hand straight below your shoulders.\n" +
+                            "\n" +
+                            "Raise one dumbbell until it reaches your shoulder’s height.\n" +
+                            "\n" +
+                            "While slowly lowering it back down after a short pause, start raising the other one.\n" +
+                            "\n" +
+                            "Tip: Try NOT to jerk your upper body in an effort to help you lift the weights.\n", R.drawable.bench_alternated_biceps_curl),
+                    new Exercise ("Biceps Curl", "Stand up and hold one dumbbell with each hand down the side of your body, palms facing each other.\n" +
+                            "\n" +
+                            "Raise both dumbbells until they reach your shoulders’ height.\n" +
+                            "\n" +
+                            "Slowly lower them back down after a short pause.\n" +
+                            "\n" +
+                            "Tip: Try NOT to jerk your upper body in an effort to help you lift the weights\n" +
+                            "\n" +
+                            "Notes: Of all the dumbbell exercises for biceps, the biceps curl is the most important to \n" +
+                            "learn, as it is the foundation on which most of the other dumbbell biceps exercises are based. \n" +
+                            "Learn and practice this biceps exercise first.\n", R.drawable.biceps_curl),
+                    new Exercise ("Concentrated Biceps Curl", "Stand behind an inclined bench and rest one arm on the back support while holding a dumbbell, palm facing up.\n" +
+                            "\n" +
+                            "Raise the dumbbell up to your shoulder.\n" +
+                            "\n" +
+                            "Lower it back down after a short pause.\n" +
+                            "\n" +
+                            "Tip: Only your lower arm should move throughout the exercise.\n", R.drawable.concentrated_biceps_curl),
+                    new Exercise ("Hammer Curl", "Grab one dumbbell in each hand along the sides of your body, palms facing your body.\n" +
+                            "\n" +
+                            "Raise both dumbbells by curling your elbows.\n" +
+                            "\n" +
+                            "Lower them down after a short pause.\n" +
+                            "\n" +
+                            "Tip: Keep your upper arms still throughout.\n" +
+                            "\n" +
+                            "Notes: The dumbbell hammer curl is one of the most important dumbbell exercises for biceps and has many variations.\n", R.drawable.hammer_curl),
+                    new Exercise ("Incline Bench Biceps Curl", "Sit down on an inclined bench and hold one dumbbell in each hand down the sides of your body, palms facing each other.\n" +
+                            "\n" +
+                            "Raise both dumbbells until they reach your shoulder levels.\n" +
+                            "\n" +
+                            "Lower them back down after a short pause.\n" +
+                            "\n" +
+                            "Tip: Try NOT to jerk your upper body in an effort to help you lift the weights.\n", R.drawable.incline_biceps_bench_curl),
+                    new Exercise ("Inclined Biceps Curl", "Sit down on an inclined bench and hold one dumbbell with each hand down, palms facing each other.\n" +
+                            "\n" +
+                            "Raise both dumbbells until they reach your shoulders’ height.\n" +
+                            "\n" +
+                            "Slowly lower them back down after a short pause.\n" +
+                            "\n" +
+                            "Tip: Try NOT to jerk your upper body in an effort to help you lift the weights.\n", R.drawable.incline_biceps_curl),
+                    new Exercise ("Inclined Alternating Biceps Curl", "Sit down on an inclined bench and hold one dumbbell with each hand down, palms facing each other.\n" +
+                            "\n" +
+                            "Raise one dumbbell until it reaches your shoulder’s height.\n" +
+                            "\n" +
+                            "While slowly lowering it back down after a short pause, start raising the other one.\n" +
+                            "\n" +
+                            "Tip: Try NOT to jerk your upper body in an effort to help you lift the weights.\n", R.drawable.inclined_alternated_biceps_curl),
+                    new Exercise ("Inner Biceps Curl", "Stand up and hold one dumbbell with each hand down the side of your body, palms facing each other.\n" +
+                            "\n" +
+                            "Raise both dumbbells until they reach your shoulders’ height.\n" +
+                            "\n" +
+                            "Slowly lower them down after a short pause.\n" +
+                            "\n" +
+                            "Tip: Try NOT to jerk your upper body in an effort to help you lift the weights.\n", R.drawable.inner_biceps_curl),
+                    new Exercise ("Palms-Forward Preacher Biceps Curl", "Place one upper arm against the arm pad the other at a 90 degree angle and grab one dumbbell on each hand, palms facing up.\n" +
+                            "\n" +
+                            "Raise the dumbbells alternatively until your forearms are parallel to the floor and lower them back down alternatively after a short pause.\n" +
+                            "\n" +
+                            "Tip: Try NOT to jerk your upper body in an effort to help you lift the weights.\n", R.drawable.palms_forward_preacher_biceps_curl),
+                    new Exercise ("Palms-Neutral Preacher Biceps Curl", "Place one upper arm against the arm pad the other at a 90 degree angle and grab one dumbbell on each hand, palms facing each other.\n" +
+                            "\n" +
+                            "Raise the dumbbells alternatively until your forearms are parallel to the floor and lower them back down alternatively after a short pause.\n" +
+                            "\n" +
+                            "Tip: Try NOT to jerk your upper body in an effort to help you lift the weights.\n", R.drawable.palms_neutral_preacher_biceps_curl),
+                    new Exercise ("Seated Alternating Biceps Curl", "Sit down on a bench and hold one dumbbell with each hand down the side of your body, palms facing each other.\n" +
+                            "\n" +
+                            "Raise one dumbbell until it reaches your shoulder’s height.\n" +
+                            "\n" +
+                            "While slowly lowering it back down after a short pause, start raising the other one.\n" +
+                            "\n" +
+                            "Tip: Try NOT to jerk your upper body in an effort to help you lift the weights.\n", R.drawable.seated_alternated_biceps_curl),
+                    new Exercise ("Seated Biceps Curl", "Sit down on a bench and hold one dumbbell with each hand down the side of your body, palms facing each other.\n" +
+                            "\n" +
+                            "Raise both dumbbells until they reach your shoulders’ height.\n" +
+                            "\n" +
+                            "Slowly lower them down after a short pause.\n" +
+                            "\n" +
+                            "Tip: Try NOT to jerk your upper body in an effort to help you lift the weights.\n", R.drawable.seated_biceps_curl),
+                    new Exercise ("Seated Concentrated Biceps Curl", "Sit on a bench, rest one arm against your thigh and hold a dumbbell with that hand down between your legs, palm facing the other leg.\n" +
+                            "\n" +
+                            "Raise the dumbbell until it reaches your shoulder.\n" +
+                            "\n" +
+                            "Slowly lower it back down after a short pause. Alternate after a set.\n" +
+                            "\n" +
+                            "Tip: Try NOT to jerk your upper body in en effort to help you lift the weight.\n", R.drawable.seated_concentrated_curl),
+                    new Exercise ("Seated Inner Biceps Curl", "Sit down on a bench and hold one dumbbell with each hand down the side of your body, palms facing each other.\n" +
+                            "\n" +
+                            "Raise both dumbbells until they reach your shoulders’ height.\n" +
+                            "\n" +
+                            "Slowly lower them back down after a short pause.\n" +
+                            "\n" +
+                            "Tip: Try NOT to jerk your upper body in an effort to help you lift the weights.\n", R.drawable.seated_inner_biceps_curl),
+                    new Exercise ("Seated Isolated Curl", "Sit on one end of the bench, hold one dumbbell with your hand and place that hand’s elbow (extended) against the front of your thigh.\n" +
+                            "\n" +
+                            "Raise one dumbbell until it reaches your shoulder’s height.\n" +
+                            "\n" +
+                            "Slowly lower it back down after a short pause. Alternate after a set.\n" +
+                            "\n" +
+                            "Tip: Try NOT to jerk your upper body in an effort to help you lift the weight.\n", R.drawable.seated_isolated_curl),
+                    new Exercise ("Supine Biceps Curl", "Lie down on your back on a bench and hold one dumbbell on each hand on each side of the body, below body height, palms facing up.\n" +
+                            "\n" +
+                            "Raise the dumbbells until they reach your body’s height.\n" +
+                            "\n" +
+                            "Slowly lower them back down after a short pause.\n" +
+                            "\n" +
+                            "Tip: Breathe out when lifting and breathe in when lowering back.\n", R.drawable.supine_biceps_curl)
             };
 
     //tricepsMoves is an array of triceps exercises
@@ -86,25 +273,111 @@ public class Exercise {
     //chestMoves is an array of chest exercises
     public static final Exercise[] chestMoves =
             {
-                    new Exercise ("Bench Press", "Bench Press", R.drawable.bench_press),
-                    new Exercise ("Bent-Arm Pullover", "Bent-Arm Pullover", R.drawable.bent_arm_pullover),
-                    new Exercise ("Decline Bench Press", "Decline Bench Press", R.drawable.decline_bench_press),
-                    new Exercise ("Neutral-Grip Decline Bench Press", "Neutral-Grip Decline Bench Press", R.drawable.neutral_grip_decline_bench_press),
-                    new Exercise ("Incline Bench Press", "Incline Bench Press", R.drawable.incline_bench_press),
-                    new Exercise ("Incline Fly", "Incline Fly", R.drawable.incline_fly),
-                    new Exercise ("Lying Fly", "Lying Fly", R.drawable.lying_fly),
-                    new Exercise ("Neutral-Grip Incline Bench Press", "Neutral-Grip Incline Bench Press", R.drawable.neutral_grip_incline_bench_press),
-                    new Exercise ("Neutral-Grip Bench Press", "Neutral-Grip Bench Press", R.drawable.neutral_grip_bench_press),
-                    new Exercise ("Straight-Arm Pullover", "Straight-Arm Pullover", R.drawable.straight_arm_pullover),
+                    new Exercise ("Bench Press", "Lie down on your back on a bench and hold 2 dumbbells at chest level along your body, palms facing your feet.\n" +
+                            "\n" +
+                            "Raise the dumbbells straight up until your elbows are close to being locked.\n" +
+                            "\n" +
+                            "Lower them back slowly after a short pause.\n" +
+                            "\n" +
+                            "Tip: Breathe out when raising the dumbbells and breathe in when lowering them back.\n", R.drawable.bench_press),
+                    new Exercise ("Bent-Arm Pullover", "Lie down on your back on one end of the bench and hold 2 dumbbells below your head level, elbows at 90 degree angles.\n" +
+                            "\n" +
+                            "Raise both dumbbells until they are next to your chest while maintaining a 90 degree angles in your elbows.\n" +
+                            "\n" +
+                            "Lower them back after a pause.\n" +
+                            "\n" +
+                            "Tip: Breathe out when raising the dumbbells and breathe in when lowering them back.\n", R.drawable.bent_arm_pullover),
+                    new Exercise ("Decline Bench Press", "Lie down on your back on a decline bench and hold 2 dumbbells at chest level, palms facing forward.\n" +
+                            "\n" +
+                            "Raise the dumbbells straight up until your elbows are close to being locked.\n" +
+                            "\n" +
+                            "Lower them back slowly after a short pause.\n" +
+                            "\n" +
+                            "Tip: Breathe out when raising the dumbbells and breathe in when lowering them back\n", R.drawable.decline_bench_press),
+                    new Exercise ("Neutral-Grip Decline Bench Press", "Lie down on your back on a decline bench and hold 2 dumbbells at chest level, palms neutral.\n" +
+                            "\n" +
+                            "Raise the dumbbells straight up until your elbows are close to being locked.\n" +
+                            "\n" +
+                            "Lower them back slowly after a short pause.\n" +
+                            "\n" +
+                            "Tip: Breathe out when raising the dumbbells and breathe in when lowering them back\n", R.drawable.neutral_grip_decline_bench_press),
+                    new Exercise ("Incline Bench Press", "Lie down on your back on an inclined bench and hold 2 dumbbells at chest level along your body, palms facing forward.\n" +
+                            "\n" +
+                            "Raise the dumbbells straight up until your elbows are close to being locked.\n" +
+                            "\n" +
+                            "Lower them back slowly after a short pause.\n" +
+                            "\n" +
+                            "Tip: Breathe out when raising the dumbbells and breathe in when lowering them back.\n", R.drawable.incline_bench_press),
+                    new Exercise ("Incline Fly", "Lie down on your back on an incline bench and grab one dumbbell with each hand at body height, elbows just slightly arched.\n" +
+                            "\n" +
+                            "Raise the dumbbells until they are side by side on top of you.\n" +
+                            "\n" +
+                            "Slowly lower them back after a short pause.\n" +
+                            "\n" +
+                            "Tip: Try to maintain the same angle in your elbows throughout.\n", R.drawable.incline_fly),
+                    new Exercise ("Lying Fly", "Lie down on your back on the bench and grab one dumbbell with each hand at body height, elbows just slightly arched.\n" +
+                            "\n" +
+                            "Raise the dumbbells until they are side by side on top of you.\n" +
+                            "\n" +
+                            "Slowly lower them back after a short pause.\n" +
+                            "\n" +
+                            "Tip: Try to maintain the same angle in your elbows throughout.\n", R.drawable.lying_fly),
+                    new Exercise ("Neutral-Grip Incline Bench Press", "Lie down on your back on an inclined bench and hold 2 dumbbells at chest level along your body, palms neutral.\n" +
+                            "\n" +
+                            "Raise the dumbbells straight up until your elbows are close to being locked.\n" +
+                            "\n" +
+                            "Lower them back slowly after a short pause.\n" +
+                            "\n" +
+                            "Tip: Breathe out when raising the dumbbells and breathe in when lowering them back.\n", R.drawable.neutral_grip_incline_bench_press),
+                    new Exercise ("Neutral-Grip Bench Press", "Lie down on your back on a bench and hold 2 dumbbells at chest level along your body, palms facing each other.\n" +
+                            "\n" +
+                            "Raise the dumbbells straight up until your elbows are close to being locked.\n" +
+                            "\n" +
+                            "Lower them back slowly after a short pause.\n" +
+                            "\n" +
+                            "Tip: Breathe out when raising the dumbbells and breathe in when lowering them back.\n", R.drawable.neutral_grip_bench_press),
+                    new Exercise ("Straight-Arm Pullover", "Lie down on your back on one end of the bench and hold one dumbbell with both hands above your chest area, arms extended.\n" +
+                            "\n" +
+                            "Raise the dumbbell straight up until your arms are perpendicular to the floor.\n" +
+                            "\n" +
+                            "Lower it back after a short pause.\n" +
+                            "\n" +
+                            "Tip: Keep your arms extended throughout by keeping still the angle of your elbows.\n", R.drawable.straight_arm_pullover),
             };
 
     //forearmsMoves is an array of forearms exercises
     public static final Exercise[] forearmsMoves =
             {
-                    new Exercise ("One-Arm Palm-Down Wrist Curl", "One-Arm Palm-Down Wrist Curl", R.drawable.one_arm_palm_down_wrist_curl),
-                    new Exercise ("One-Arm Palm-Up Wrist Curl", "One-Arm Palm-Up Wrist Curl", R.drawable.one_arm_palm_up_wrist_curl),
-                    new Exercise ("Palms-Down Wrist Curl", "Palms-Down Wrist Curl", R.drawable.palms_down_wrist_curl),
-                    new Exercise ("Palms-Up Wrist Curl", "Palms-Up Wrist Curl", R.drawable.palms_up_wrist_curl)
+                    new Exercise ("One-Arm Palm-Down Wrist Curl", "Sit on one end of a bench and hold one dumbbell with one hand, wrist against your knee, palm facing down.\n" +
+                            "\n" +
+                            "Raise one dumbbell up by raising only your hand.\n" +
+                            "\n" +
+                            "Slowly lower it back down after a short pause.\n" +
+                            "\n" +
+                            "Alternate hands after a set.\n" +
+                            "\n" +
+                            "Tip: Keep your arms still throughout.\n", R.drawable.one_arm_palm_down_wrist_curl),
+                    new Exercise ("One-Arm Palm-Up Wrist Curl", "Sit on one end of a bench and hold one dumbbell with one hand, wrist against your knee, palm facing up.\n" +
+                            "\n" +
+                            "Raise one dumbbell up by raising only your hand.\n" +
+                            "\n" +
+                            "Slowly lower it back down after a short pause. \n" +
+                            "\n" +
+                            "Alternate hands after a set.\n" +
+                            "\n" +
+                            "Tip: Keep your arms still throughout.\n", R.drawable.one_arm_palm_up_wrist_curl),
+                    new Exercise ("Palms-Down Wrist Curl", "Sit on one end of a bench and hold one dumbbell on each hand, wrists against your knees, palms facing down.\n" +
+                            "\n" +
+                            "Raise the dumbbells up by raising only your hands.\n" +
+                            "\n" +
+                            "Slowly lower them back down after a short pause.\n" +
+                            "\n" +
+                            "Tip: Keep your arms still throughout.\n", R.drawable.palms_down_wrist_curl),
+                    new Exercise ("Palms-Up Wrist Curl", "Sit on one end of a bench and hold one dumbbell on each hand, wrists against your knees, palms facing up.\n" +
+                            "\n" +
+                            "Raise the dumbbells up by raising only your hands and slowly lower them back down after a short pause.\n" +
+                            "\n" +
+                            "Tip: Keep your arms still throughout.\n", R.drawable.palms_up_wrist_curl)
             };
 
     //legsMoves is an array of leg exercises
