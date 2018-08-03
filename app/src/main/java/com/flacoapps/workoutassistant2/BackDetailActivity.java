@@ -21,7 +21,7 @@ public class BackDetailActivity extends Activity {
         int backExerciseNumber = (Integer) getIntent().getExtras().get(EXTRA_INFO);
         Exercise backExercise = Exercise.backMoves[backExerciseNumber];
 
-        switch (backExerciseNumber){
+         switch (backExerciseNumber){
             case 0: webViewName = "back_fly";
                 break;
             case 1: webViewName = "bend_to_opposite_foot";
@@ -44,12 +44,12 @@ public class BackDetailActivity extends Activity {
 
         //populate webView
         webView = (WebView) findViewById(R.id.abs_webview);
-        webView.loadUrl("file:///android_asset/" + webViewName +".html");
+        webView.loadUrl(/*"file:///android_asset/" + webViewName +".html"*/"file:///android_asset/back_fly.html");
 
         //populate exercise image
-        ImageView photo = (ImageView) findViewById(R.id.back_photo);
-        photo.setImageResource(backExercise.getImageResourceId());
-        photo.setContentDescription(backExercise.getName());
+        //ImageView photo = (ImageView) findViewById(R.id.back_photo);
+        //photo.setImageResource(backExercise.getImageResourceId());
+        //photo.setContentDescription(backExercise.getName());
 
         //populate exercise name
         TextView name = (TextView) findViewById(R.id.name);

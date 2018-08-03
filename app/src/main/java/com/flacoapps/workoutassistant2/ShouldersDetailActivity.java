@@ -2,12 +2,15 @@ package com.flacoapps.workoutassistant2;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.webkit.WebView;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 public class ShouldersDetailActivity extends Activity {
 
     public static final String EXTRA_INFO = "shouldersExerciseNumber";
+    WebView webView;
+    String webViewName;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,9 +22,9 @@ public class ShouldersDetailActivity extends Activity {
         Exercise shouldersExercise = Exercise.shouldersMoves[shouldersExerciseNumber];
 
         //populate exercise image
-        ImageView photo = (ImageView) findViewById(R.id.shoulders_photo);
-        photo.setImageResource(shouldersExercise.getImageResourceId());
-        photo.setContentDescription(shouldersExercise.getName());
+        //ImageView photo = (ImageView) findViewById(R.id.shoulders_photo);
+        //photo.setImageResource(shouldersExercise.getImageResourceId());
+        //photo.setContentDescription(shouldersExercise.getName());
 
         //populate exercise name
         TextView name = (TextView) findViewById(R.id.name);
