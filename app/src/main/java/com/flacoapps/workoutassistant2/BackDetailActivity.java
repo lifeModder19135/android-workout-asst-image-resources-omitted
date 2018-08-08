@@ -2,6 +2,7 @@ package com.flacoapps.workoutassistant2;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.webkit.WebView;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -11,6 +12,7 @@ public class BackDetailActivity extends Activity {
     public static final String EXTRA_INFO = "backExerciseNumber" ;
     WebView webView;
     String webViewName;
+    private static final String TAG= BackDetailActivity.class.getSimpleName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,9 +45,14 @@ public class BackDetailActivity extends Activity {
         }
 
         //populate webView
-        webView = (WebView) findViewById(R.id.abs_webview);
-        webView.loadUrl(/*"file:///android_asset/" + webViewName +".html"*/"file:///android_asset/back_fly.html");
-
+        webView = (WebView) findViewById(R.id.back_webview);
+       try {
+           webView.loadUrl("file:///android_asset/" + webViewName +".html"/*"file:///android_asset/back_fly.html"*/);
+       }
+       catch (Exception e)
+       {
+           Log.d(TAG, String.valueOf(e));
+       }
         //populate exercise image
         //ImageView photo = (ImageView) findViewById(R.id.back_photo);
         //photo.setImageResource(backExercise.getImageResourceId());

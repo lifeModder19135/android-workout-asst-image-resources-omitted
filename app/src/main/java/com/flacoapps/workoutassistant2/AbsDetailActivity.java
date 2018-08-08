@@ -2,6 +2,7 @@ package com.flacoapps.workoutassistant2;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.webkit.WebView;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -11,6 +12,7 @@ public class AbsDetailActivity extends Activity {
     public static final String EXTRA_INFO = "absExerciseNumber" ;
     WebView webView;
     String webViewName;
+    private static final String TAG= AbsDetailActivity.class.getSimpleName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,16 +20,26 @@ public class AbsDetailActivity extends Activity {
         setContentView(R.layout.activity_abs_detail);
 
         //get exercise from intent
-        int exerciseNumber = (Integer) getIntent().getExtras().get(EXTRA_INFO);
-        Exercise absExercise = Exercise.absMoves[exerciseNumber];
+        int absExerciseNumber = (Integer) getIntent().getExtras().get(EXTRA_INFO);
+        Exercise absExercise = Exercise.absMoves[absExerciseNumber];
 
-        switch (exerciseNumber){
+        switch (absExerciseNumber){
             case 0: webViewName = "weighted_leg_raise";
                 break;
             case 1: webViewName = "dumbbell_side_bend";
                 break;
             case 2: webViewName = "weighted_crunch";
                 break;
+        }
+
+        //populate webView
+        webView = (WebView) findViewById(R.id.abs_webview);
+        try {
+            webView.loadUrl("file:///android_asset/" + webViewName +".html"/*"file:///android_asset/back_fly.html"*/);
+        }
+        catch (Exception e)
+        {
+            Log.d(TAG, String.valueOf(e));
         }
 
         //populate exercise image

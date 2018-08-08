@@ -4,11 +4,12 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/workout_assistant_logo_2"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity android:name=".TopLevelActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,27 +17,55 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".ShouldersCategoryActivity" >
         </activity>
+
         <activity android:name=".BackCategoryActivity" >
         </activity>
+
         <activity android:name=".ChestCategoryActivity" >
         </activity>
+
         <activity android:name=".BicepsCategoryActivity" >
         </activity>
+
         <activity android:name=".TricepsCategoryActivity" >
         </activity>
-        <activity android:name=".ForearmsCategoryActivity" />
-        <activity android:name=".AbsCategoryActivity" />
-        <activity android:name=".LegsCategoryActivity" />
-        <activity android:name=".AbsDetailActivity" />
-        <activity android:name=".BackDetailActivity" />
-        <activity android:name=".BicepsDetailActivity" />
-        <activity android:name=".ChestDetailActivity" />
-        <activity android:name=".ForearmsDetailActivity" />
-        <activity android:name=".LegsDetailActivity" />
-        <activity android:name=".ShouldersDetailActivity" />
-        <activity android:name=".TricepsDetailActivity"></activity>
+
+        <activity android:name=".ForearmsCategoryActivity" >
+        </activity>
+
+        <activity android:name=".AbsCategoryActivity" >
+        </activity>
+
+        <activity android:name=".LegsCategoryActivity" >
+        </activity>
+
+        <activity android:name=".AbsDetailActivity" >
+        </activity>
+
+        <activity android:name=".BackDetailActivity" >
+        </activity>
+
+        <activity android:name=".BicepsDetailActivity" >
+        </activity>
+
+        <activity android:name=".ChestDetailActivity" >
+        </activity>
+
+        <activity android:name=".ForearmsDetailActivity" >
+        </activity>
+
+        <activity android:name=".LegsDetailActivity" >
+        </activity>
+
+        <activity android:name=".ShouldersDetailActivity" >
+        </activity>
+
+        <activity android:name=".TricepsDetailActivity">
+        </activity>
+
     </application>
 
 </manifest>
